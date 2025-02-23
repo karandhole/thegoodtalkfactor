@@ -18,9 +18,9 @@
 # Common
 --------------------------------------------------------------*/
 :root {
-    --sopot-font: 'Poppins', sans-serif;
-    --sopot-font-two: 'Fira Sans', sans-serif;
-    --sopot-gray: #787878;
+    --sopot-font: 'Poppins';
+    --sopot-font-two: 'math';
+    --sopot-gray: #3a3a3a;
     --sopot-gray-rgb: 120, 120, 120;
     --sopot-white: #ffffff;
     --sopot-white-rgb: 255, 255, 255;
