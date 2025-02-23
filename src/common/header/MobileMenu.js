@@ -210,7 +210,7 @@ const NavIcon = styled(Link)`
     height: 50px;
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 200px;
 `;
 
 const SidebarNav = styled.nav`
@@ -223,7 +223,8 @@ const SidebarNav = styled.nav`
     -webkit-scroll-behavior: smooth;
     box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.15);
     top: 0;
-    right: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
+    left:0;
+    left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
     transition: 350ms;
     z-index: 99999;
 `;
@@ -267,11 +268,11 @@ const MobileMenu = () => {
                             <ul className="mobile-nav__contact list-unstyled">
                                 <li>
                                     <i className="fa fa-envelope" aria-hidden="true"></i>
-                                    <a href="mailto:needhelp@packageName__.com">needhelp@const.com</a>
+                                    <a href="mailto:needhelp@packageName__.com">admin@thegoodtalkfactory.org</a>
                                 </li>
                                 <li>
                                     <i className="fa fa-phone" aria-hidden="true"></i>
-                                    <a href="tel:666-888-0000">666 888 0000</a>
+                                    <a href="tel:666-888-0000">+91 986 888 0000</a>
                                 </li>
                             </ul>
                             <div className="mobile-nav__top">

@@ -17,7 +17,7 @@ export default class ProjectOne extends React.Component {
                                 {/* Project One Single */}
                                 <div className="project-one__single">
                                     <div className="project-one__img">
-                                        <img src={publicUrl+"assets/images/project/p1.jpg"}  alt="" />
+                                        <img src={publicUrl+"assets/images/project/p1.JPG"}  alt="" />
                                         <div className="project-one__content">
                                             <p className="project-one__sub-title">Our Best Projects</p>
                                             <h3 className="project-one__title"><Link to={process.env.PUBLIC_URL + `/project-details`}>Event of Shares</Link></h3>
@@ -40,7 +40,7 @@ export default class ProjectOne extends React.Component {
                                 {/* Project One Single */}
                                 <div className="project-one__single">
                                     <div className="project-one__img">
-                                        <img src={publicUrl+"assets/images/project/p3.jpg"} alt="" />
+                                        <img src={publicUrl+"assets/images/project/p3.JPG"} alt="" />
                                         <div className="project-one__content">
                                             <p className="project-one__sub-title">Our Best Projects</p>
                                             <h3 className="project-one__title"><Link to={process.env.PUBLIC_URL + `/project-details`}>Children of Poor</Link>
@@ -53,7 +53,7 @@ export default class ProjectOne extends React.Component {
                                 {/* Project One Single */}
                                 <div className="project-one__single">
                                     <div className="project-one__img">
-                                        <img src={publicUrl+"assets/images/project/p4.jpg"} alt="" />
+                                        <img src={publicUrl+"assets/images/project/p4.JPG"} alt="" />
                                         <div className="project-one__content">
                                             <p className="project-one__sub-title">Our Best Projects</p>
                                             <h3 className="project-one__title"><Link to={process.env.PUBLIC_URL + `/project-details`}>History Of Tibet</Link>
