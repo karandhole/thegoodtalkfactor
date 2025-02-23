@@ -5498,8 +5498,18 @@ a.sc-hLBbgP {
     margin: 0 auto;
     text-align: center;
     padding: 50px 0 50px;
+    
 }
 
+@media (max-width: 480px) {
+
+    .two-section__content-box {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    }
+    
+}
 .two-section__sub-title {
     font-size: 15px;
     color: var(--sopot-white);
