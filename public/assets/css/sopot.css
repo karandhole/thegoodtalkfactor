@@ -5370,7 +5370,7 @@ a.sc-hLBbgP {
     position: relative;
     display: block;
 }
-
+ 
 .help-the-causes__wrapper {
     position: relative;
     display: block;
@@ -5391,7 +5391,7 @@ a.sc-hLBbgP {
     bottom: 0;
     left: 0;
     right: 0;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
 }
