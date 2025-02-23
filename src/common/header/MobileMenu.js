@@ -12,13 +12,13 @@ const menuData = [
         iconClosed: <CgChevronLeft />,
         iconOpened: <CgChevronDown />,
 
-        subNav: [
+        // subNav: [
             
-            {
-                title: 'Home',
-                path: '/',
-            },
-        ],
+        //     {
+        //         title: 'Home',
+        //         path: '/',
+        //     },
+        // ],
     },
     {
         title: 'About',
@@ -38,17 +38,14 @@ const menuData = [
                 path: '/team',
                 cName: 'sub-nav',
             },
-            {
+            { 
                 title: 'Team Details',
                 path: '/team-details',
                 cName: 'sub-nav',
             },
+            
             {
-                title: 'Projects',
-                path: '/projects',
-            },
-            {
-                title: 'Project Details',
+                title: 'Project',
                 path: '/project-details',
             },
             {
@@ -96,38 +93,44 @@ const menuData = [
     },
 
     {
+        title: 'Eventes',
+        path: '/events',
+    },
+
+
+    {
         title: 'Blog',
-        path: '#',
+        path: '/blog-v-1',
 
         iconClosed: <CgChevronLeft />,
         iconOpened: <CgChevronDown />,
 
-        subNav: [
-            {
-                title: 'Blog V-1',
-                path: '/blog-v-1',
-                cName: 'sub-nav',
-            },
-            {
-                title: 'Blog V-2',
-                path: '/blog-v-2',
-                cName: 'sub-nav',
-            },
-            {
-                title: 'Blog Sidebar',
-                path: '/blog-sidebar',
-            },
-            {
-                title: 'Blog Sidebar',
-                path: '/blog-sidebar',
-            },
-            {
-                title: 'Blog Details',
-                path: '/blog-details',
-            },
-        ],
+        // subNav: [
+        //     {
+        //         title: 'Blog V-1',
+        //         path: '/blog-v-1',
+        //         cName: 'sub-nav',
+        //     },
+        //     {
+        //         title: 'Blog V-2',
+        //         path: '/blog-v-2',
+        //         cName: 'sub-nav',
+        //     },
+        //     {
+        //         title: 'Blog Sidebar',
+        //         path: '/blog-sidebar',
+        //     },
+        //     {
+        //         title: 'Blog Sidebar',
+        //         path: '/blog-sidebar',
+        //     },
+        //     {
+        //         title: 'Blog Details',
+        //         path: '/blog-details',
+        //     },
+        // ],
     },
-
+    
     {
         title: 'Contact',
         path: '/contact',
