@@ -75,7 +75,7 @@ export default class CausesTwo extends React.Component {
                             <div className="help-the-causes__left-bg" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/bg1.jpg)'}}></div>
                         </div>
                         <div className="help-the-causes__right">
-                            <div className="help-the-causes__content-bg" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/help-the-causes-content-bg.jpg)'}}></div>
+                            <div className="help-the-causes__content-bg" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/bg1.jpg)'}}></div>
                             <div className="help-the-causes__content-box">
                                 <div className="section-title text-left">
                                     <span className="section-title__tagline">Every Voice Creates Change</span>
