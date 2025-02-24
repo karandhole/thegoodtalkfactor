@@ -6,9 +6,9 @@ export default class HelpPeopleTwo extends React.Component {
         return (
             <>
                 <section className="help-one">
-                    <div className="help-one-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/help-one-bg.jpg)'}}></div>
+                    <div className="help-one-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/principals.jpg)'}}></div>
                     <div className="container">
-                        <h3 className="help-one__title">How You Can Help Us?</h3>
+                        <h3 className="help-one__title">OUR CORE PRINCIPLES</h3>
                         <div className="row">
                             <div className="col-xl-6 col-lg-6">
                                 <div className="help-one__content-box">
@@ -17,9 +17,8 @@ export default class HelpPeopleTwo extends React.Component {
                                             <span className="icon-donation-1"></span>
                                         </div>
                                         <div className="help-one__content">
-                                            <h4>Start investing in our volunteer group</h4>
-                                            <p>To make sure education of poor children While atever motivates you to host,your
-                                                participation has the.</p>
+                                            <h4>Passion </h4>
+                                            <p>Every conversation holds the power to create change.</p>
                                         </div>
                                     </div>
                                     <div className="help-one__single">
@@ -27,9 +26,8 @@ export default class HelpPeopleTwo extends React.Component {
                                             <span className="icon-heart"></span>
                                         </div>
                                         <div className="help-one__content">
-                                            <h4>Childhood Education Development support</h4>
-                                            <p>To make sure education of poor children While atever motivates you to host,your
-                                                participation has the.</p>
+                                            <h4> Dedication </h4>
+                                            <p>We provide consistent efforts in fostering inclusivity.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -41,9 +39,8 @@ export default class HelpPeopleTwo extends React.Component {
                                             <span className="icon-donation"></span>
                                         </div>
                                         <div className="help-one__content">
-                                            <h4>Because Everyone Deserves Clean Water</h4>
-                                            <p>To make sure education of poor children While atever motivates you to host,your
-                                                participation has the.</p>
+                                            <h4> Inspiration </h4>
+                                            <p>Real-life stories inspire communities to take action.</p>
                                         </div>
                                     </div>
                                     <div className="help-one__single">
@@ -51,9 +48,8 @@ export default class HelpPeopleTwo extends React.Component {
                                             <span className="icon-bankruptcy"></span>
                                         </div>
                                         <div className="help-one__content">
-                                            <h4>Child Deserves Better Healthy Foods</h4>
-                                            <p>To make sure education of poor children While atever motivates you to host,your
-                                                participation has the.</p>
+                                            <h4>Transformation</h4>
+                                            <p>Through dialogue, we transform mindsets and social structures.</p>
                                         </div>
                                     </div>
                                 </div>

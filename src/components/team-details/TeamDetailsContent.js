@@ -96,7 +96,7 @@ export default class TeamDetailsContent extends React.Component {
 
                                     <div className="join-team__content">
 
-                                        <p className="join-team__text">Be the Voice of Change with TGTF!</p>
+                                        <p className="join-team__text" style={{fontWeight:"600"}}>Be the Voice of Change with TGTF!</p>
 
 
 
@@ -106,20 +106,14 @@ export default class TeamDetailsContent extends React.Component {
                                         </p>
                                         <p className="join-team__text"> Ready to make a difference?</p>
 
-                                        <ul className="list-unstyled join-team__points">
-                                            <li> Sign up now and start your journey with TGTF!</li>
+                                        <p className="join-team__text">
+                                            Sign up now and start your journey with TGTF!
 
-                                        </ul>
-                                        <div className="join-team__contact">
-                                            <p>
-
-                                                <a href="mailto:thegoodtalkfactory@gmail.com"
-                                                    className="join-team__email">thegoodtalkfactory@gmail.com</a>
-                                            </p>
-                                        </div>
+                                        </p>
+                                        
                                     </div>
                                     <div className="join-team__btn-box">
-                                        <a><button type="submit" className="thm-btn join-team__btn">Sign Up Now</button></a>
+                                        <a href='https://docs.google.com/forms/d/1yX7HG27u9TI2nONvLit4iaPng98JC9jKW3Q2z4LeNA0/edit?usp=drivesdk ' target='_blank'><button type="submit" className="thm-btn join-team__btn">Register Here</button></a>
                                     </div>
 
 

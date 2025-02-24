@@ -78,16 +78,16 @@ export default class CausesTwo extends React.Component {
                             <div className="help-the-causes__content-bg" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/left.JPG)'}}></div>
                             <div className="help-the-causes__content-box">
                                 <div className="section-title text-left">
-                                    <span className="section-title__tagline">Every Voice Creates Change</span>
-                                    <h2 className="section-title__title">A Empowering Conversations for Impact</h2>
+                                    <span className="section-title__tagline">SUSTAINABILITY & GROWTH STRATEGY </span>
+                                    {/* <h6 className="section-title__title">TGTF’s long-term vision is to expand its initiatives nationally through:</h6> */}
                                 </div>
-                                <p className="help-the-causes__text">We amplify unheard stories and foster inclusive dialogue to drive positive social change.</p>
-                                <div className="progress-levels">
+                               
+                                <ul className="progress-levels">
                                     {/* Skill Box */}
-                                    <div className="progress-box">
+                                    <li className="progress-box">
                                         <div className="inner count-box">
-                                            <div className="text">Community Engagement</div>
-                                            <div className="bar">
+                                            <div className="text">Stronger collaborations with corporates & government bodies</div>
+                                            {/* <div className="bar">
                                                 <div className="bar-innner">
                                                     <div className="skill-percent">
                                                         <span className="count-text" data-speed="3000" data-stop="82">0</span>
@@ -95,14 +95,14 @@ export default class CausesTwo extends React.Component {
                                                     </div>
                                                     <div className="bar-fill" data-percent="82"></div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
-                                    </div>
+                                    </li>
                                     {/* Skill Box */}
-                                    <div className="progress-box ">
+                                    <li className="progress-box ">
                                         <div className="inner count-box">
-                                            <div className="text">Skill Development Initiatives</div>
-                                            <div className="bar">
+                                            <div className="text">Increased scholarship funding for education accessibility</div>
+                                            {/* <div className="bar">
                                                 <div className="bar-innner">
                                                     <div className="skill-percent">
                                                         <span className="count-text" data-speed="3000" data-stop="88">0</span>
@@ -110,15 +110,15 @@ export default class CausesTwo extends React.Component {
                                                     </div>
                                                     <div className="bar-fill" data-percent="88"></div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
-                                    </div>
+                                    </li>
 
                                     {/* Skill Box */}
-                                    <div className="progress-box ">
+                                    <li className="progress-box ">
                                         <div className="inner count-box">
-                                            <div className="text">Education & Awareness Programs</div>
-                                            <div className="bar">
+                                            <div className="text">Wider reach of mental health & inclusivity training programs</div>
+                                            {/* <div className="bar">
                                                 <div className="bar-innner">
                                                     <div className="skill-percent">
                                                         <span className="count-text" data-speed="3000" data-stop="88">0</span>
@@ -126,10 +126,10 @@ export default class CausesTwo extends React.Component {
                                                     </div>
                                                     <div className="bar-fill" data-percent="88"></div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
-                                    </div>
-                                </div>
+                                    </li>
+                                </ul>
                                 <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn skill-one__btn">More Info</Link>
                             </div>
                         </div>

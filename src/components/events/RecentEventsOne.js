@@ -18,9 +18,9 @@ export default class RecentEventsOne extends React.Component {
                                 <div className="recent-event__single">
                                     <div className="recent-event__img">
                                         <img src={publicUrl + "assets/images/resources/ab1.jpeg"} alt="" />
-                                        <div className="recent-event__btn-box">
+                                        {/* <div className="recent-event__btn-box">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn">Read More</Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="recent-event__content">
                                         {/* <ul className="list-unstyled recent-event__meta">
@@ -31,11 +31,11 @@ export default class RecentEventsOne extends React.Component {
                                                 <p> <span className="icon-back-in-time"></span> 04:00 am </p>
                                             </li>
                                         </ul> */}
-                                        <h6 className="recent-event__title"><Link to={process.env.PUBLIC_URL + `/events`}>TGTF CONVERSATIONS & COMMUNITY ENGAGEMENT</Link></h6>
+                                        <h6 className="recent-event__title"><Link to={process.env.PUBLIC_URL + `/events`}> CONVERSATIONS & COMMUNITY ENGAGEMENT</Link></h6>
                                         <ul className="recent-event__text">
                                             <li> Panel discussions & community dialogues</li>
-                                            <li>Workshops on effective communication, conflict resolution, & inclusivity</li>
-                                            <li> Collaborations with organizations & government bodies to drive impact</li>
+                                            <li>Workshops on effective communication & inclusivity</li>
+                                            <li> Collaboration with various organizations to drive impact</li>
                                         </ul>
 
                                     </div>
@@ -44,9 +44,9 @@ export default class RecentEventsOne extends React.Component {
                                 <div className="recent-event__single">
                                     <div className="recent-event__img">
                                         <img src={publicUrl + "assets/images/resources/ab3.jpg"} alt="" />
-                                        <div className="recent-event__btn-box">
+                                        {/* <div className="recent-event__btn-box">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn">Read More</Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="recent-event__content">
                                         {/* <ul className="list-unstyled recent-event__meta">
@@ -61,7 +61,7 @@ export default class RecentEventsOne extends React.Component {
                                         <ul className="recent-event__text">
                                             <li> Scholarship sponsorship for 20 students per year @ ₹3,000 each</li>
                                             <li> Life skills training & leadership development workshops</li>
-                                            <li> Creative arts & knowledge exchange programs</li>
+                                            <li> Creative arts & knowledge exchange programs </li>
                                         </ul>
 
                                     </div>
@@ -73,9 +73,9 @@ export default class RecentEventsOne extends React.Component {
                                 <div className="recent-event__single">
                                     <div className="recent-event__img">
                                         <img src={publicUrl + "assets/images/resources/ab3.jpg"} alt="" />
-                                        <div className="recent-event__btn-box">
+                                        {/* <div className="recent-event__btn-box">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn">Read More</Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="recent-event__content">
                                         {/* <ul className="list-unstyled recent-event__meta">
@@ -90,7 +90,8 @@ export default class RecentEventsOne extends React.Component {
                                         <ul className="recent-event__text">
                                             <li> Corporate & community-driven mental wellness workshops</li>
                                             <li> Therapeutic activities like music & art-based therapy</li>
-                                            <li> Advocacy for suicide prevention & emotional resilience</li>
+                                            <li> Advocacy for suicide prevention & emotional resilience <br/>  </li>
+                                          
                                         </ul>
 
                                     </div>
@@ -99,9 +100,9 @@ export default class RecentEventsOne extends React.Component {
                                 <div className="recent-event__single">
                                     <div className="recent-event__img">
                                         <img src={publicUrl + "assets/images/resources/ab3.jpg"} alt="" />
-                                        <div className="recent-event__btn-box">
+                                        {/* <div className="recent-event__btn-box">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn">Read More</Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="recent-event__content">
                                         {/* <ul className="list-unstyled recent-event__meta">

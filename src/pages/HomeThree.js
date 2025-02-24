@@ -24,16 +24,19 @@ const HomeThree = () => {
             <HeroThree />
             <AboutOne />
             <HelpPeopleOne />
-            <ProjectOne />
+            <TwoSection />
+            <HelpPeopleTwo />
+            <RecentEventsOne />
             <CausesTwo />
             {/* <BrandOne /> */}
-            <RecentEventsOne />
+          
             <TeamOne />
-            <TwoSection />
+            
             <RecentEventsTwo />
-            <HelpPeopleTwo />
+           
             {/* <TestimonialTwo /> */}
             <BlogSectionThree />
+            <ProjectOne />
             <CtaOne />
             <FooterTwo />
         </>
