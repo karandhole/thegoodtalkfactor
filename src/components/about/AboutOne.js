@@ -27,11 +27,11 @@ export default class AboutOne extends React.Component {
                                 <div className="about-one__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                                     <div className="about-one__img-box">
                                         <div className="about-one__img">
-                                            <img src={publicUrl + "assets/images/resources/ab1.jpeg"} alt="" />
+                                            <img src={publicUrl + "assets/images/resources/about1.jpeg"} alt="" />
                                         </div>
                                         <div className="about-one__small-img wow zoomIn animated animated" data-wow-delay="500ms"
                                             data-wow-duration="2500ms">
-                                            <img src={publicUrl + "assets/images/resources/left.JPG"}  style={{height:"150px"}} alt="" />
+                                            <img src={publicUrl + "assets/images/resources/left.JPG"} style={{ height: "150px" }} alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -41,11 +41,17 @@ export default class AboutOne extends React.Component {
                                     <div className="about-one__right-content">
                                         <div className="section-title text-left">
                                             <span className="section-title__tagline">About Us</span>
-                                            <h2 className="section-title__title">We Can Save More Lifes With Your Helping Hand.</h2>
+
                                         </div>
-                                        <p className="about-one__text">The Good Talk Factory (TGTF) is a non-governmental organization (NGO) on a mission to foster positive social change through the power of conversations. Established on December 15, 2018, and officially registered as a Trust under the Indian Trusts Act, 1882, on March 17, 2023, TGTF challenges stereotypes and democratizes storytelling, ensuring that every voice matters—regardless of fame, social status, or background.
-                                        </p>
-                                        <ul className="list-unstyled about-one__points">
+                                        <p className="about-one__text1">Who are we?</p>
+                                        <p className="about-one__text">
+                                            
+                                            The Good Talk Factory (TGTF) is a non-governmental organization (NGO) on a mission to foster positive social change through the power of conversations. Established on December 15, 2018, and officially registered as a Trust under the Indian Trusts Act, 1882, on March 17, 2023, TGTF challenges stereotypes and democratizes storytelling, ensuring that every voice matters—regardless of fame, social status, or background.
+                                            <p className="about-one__text2"> What we do?</p>
+                                           </p>
+                                           <p className="about-one__text">
+                                            Through community engagement, education, skill development, and inclusivity advocacy, TGTF empowers individuals by shifting the narrative from mainstream celebrity culture to everyday human impact. We believe in creating safe spaces for open conversations, where unheard stories are valued, and individuals are celebrated as voices of change.                                        </p>
+                                        {/* <ul className="list-unstyled about-one__points">
                                             <li>
                                                 <div className="icon">
                                                     <span className="icon-comment"></span>
@@ -64,20 +70,8 @@ export default class AboutOne extends React.Component {
                                                     <p>Through education and community engagement, TGTF fosters safe spaces for meaningful conversations that challenge stereotypes and promote social impact.</p>
                                                 </div>
                                             </li>
-                                        </ul>
-                                        <div className="about-one__bottom-video-box">
-                                            <div className="about-one__btn-box">
-                                                <a href="about.html" className="thm-btn about-one__btn">About More</a>
-                                            </div>
-                                            <div className="about-one__video-link">
-                                                <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
-                                                    <div className="about-one__video-icon">
-                                                        <span className="fa fa-play"></span>
-                                                        <i className="ripple"></i>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
+                                        </ul> */}
+                                       
                                     </div>
                                 </div>
                             </div>

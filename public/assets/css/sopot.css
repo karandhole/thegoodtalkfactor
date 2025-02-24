@@ -18,8 +18,8 @@
 # Common
 --------------------------------------------------------------*/
 :root {
-    --sopot-font: 'Poppins';
-    --sopot-font-two: 'math';
+    --sopot-font:'Roboto', sans-serif;
+    --sopot-font-two: 'Roboto', sans-serif;
     --sopot-gray: #3a3a3a;
     --sopot-gray-rgb: 120, 120, 120;
     --sopot-white: #ffffff;
@@ -203,7 +203,7 @@ ul {
 .section-title__tagline {
     font-size: 20px;
     color: var(--sopot-base);
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
     font-style: normal;
 }
@@ -2288,7 +2288,7 @@ a.sc-hLBbgP {
     right: 0;
     left: -10px;
     content: "";
-    background-color: var(--sopot-white);
+    background-color: var(--sopot-base);
     z-index: -1;
 }
 
@@ -2299,7 +2299,7 @@ a.sc-hLBbgP {
 .about-one__right {
     position: relative;
     display: block;
-    margin-top: -10px;
+    margin-top: 0px;
 }
 
 .about-one__right-content {
@@ -2307,10 +2307,26 @@ a.sc-hLBbgP {
     display: block;
     border: 1px dashed var(--sopot-base);
     padding: 75px 55px 63px;
+    padding-top: 20px;
 }
 
 .about-one__right-content .section-title {
     margin-bottom: 18px;
+}
+.about-one__right-content .about-one__text1 {
+    padding-bottom: 8px;
+    padding-top: 8px;
+
+}
+.about-one__right-content .about-one__text2 {
+    
+    padding-top: 18px;
+
+}
+.about-one__right-content .about-one__text {
+    padding-bottom: 8px;
+    
+
 }
 
 .about-one__points {
