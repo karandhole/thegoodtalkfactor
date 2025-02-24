@@ -69,7 +69,7 @@ export default class HeroThree extends React.Component {
 
                             {/* Start Swiper Slide Single */}
                             <SwiperSlide className="swiper-slide">
-                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/hero.jpg)'}}></div>
+                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/bg5.jpg)'}}></div>
                                 <div className="main-slider__three-map">
                                     <img src={publicUrl+"assets/images/shapes/main-slider-three-map.png"} alt="" />
                                 </div>
