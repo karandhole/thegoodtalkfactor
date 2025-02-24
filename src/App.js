@@ -49,7 +49,7 @@ function App() {
             <Route path={`${process.env.PUBLIC_URL}/home-three`} exact element={<HomeThree />} />
             <Route path={`${process.env.PUBLIC_URL}/about`} exact element={<About />} />
             <Route path={`${process.env.PUBLIC_URL}/team`} exact element={<Team />} />
-            <Route path={`${process.env.PUBLIC_URL}/team-details`} exact element={<TeamDetails />} />
+            <Route path={`${process.env.PUBLIC_URL}/volunteer`} exact element={<TeamDetails />} />
             <Route path={`${process.env.PUBLIC_URL}/projects`} exact element={<Projects />} />
             <Route path={`${process.env.PUBLIC_URL}/project-details`} exact element={<ProjectDetails />} />
             <Route path={`${process.env.PUBLIC_URL}/testimonials`} exact element={<Testimonials />} />

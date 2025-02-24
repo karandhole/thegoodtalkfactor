@@ -10,8 +10,8 @@ const TeamDetails = () => {
         <>
             <HeaderOne />
             <Breadcrumb 
-                heading="Team Details"
-                currentPage="Team Details" 
+                heading="Volunteer"
+                currentPage="Volunteer Registration" 
             />
             <TeamDetailsContent />
             <FooterTwo />
