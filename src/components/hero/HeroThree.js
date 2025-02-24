@@ -77,7 +77,7 @@ export default class HeroThree extends React.Component {
                                     <div className="row">
                                         <div className="col-xl-12">
                                             <div className="main-slider__content">
-                                            <h2>Donations even if it   <span> is a</span>small can <br /> fbring bigger.</h2>
+                                            <h2>"We Are HERE to HEAR You"</h2>
                                                 
                                             </div>
                                         </div>
