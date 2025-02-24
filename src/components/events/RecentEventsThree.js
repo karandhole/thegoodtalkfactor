@@ -17,7 +17,7 @@ export default class RecentEventsThree extends React.Component {
                                 {/* Recent Event Single */}
                                 <div className="recent-event__single1">
                                     <div className="recent-event__img1">
-                                        <img src={publicUrl + "assets/images/resources/event1.jpg"} alt="" />
+                                        <img src={publicUrl + "assets/images/resources/event1.JPG"} alt="" />
                                         <div className="recent-event__btn-box1">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn1">Read More</Link>
                                         </div>
@@ -38,7 +38,7 @@ export default class RecentEventsThree extends React.Component {
                                 {/* Recent Event Single */}
                                 <div className="recent-event__single1">
                                     <div className="recent-event__img1">
-                                        <img src={publicUrl + "assets/images/resources/event2.jpg"} alt="" />
+                                        <img src={publicUrl + "assets/images/resources/event2.JPG"} alt="" />
                                         <div className="recent-event__btn-box1">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn1">Read More</Link>
                                         </div>
@@ -60,7 +60,7 @@ export default class RecentEventsThree extends React.Component {
                                 {/* Recent Event Single */}
                                 <div className="recent-event__single1">
                                     <div className="recent-event__img1">
-                                        <img src={publicUrl + "assets/images/resources/event2.jpg"} alt="" />
+                                        <img src={publicUrl + "assets/images/resources/event2.JPG"} alt="" />
                                         <div className="recent-event__btn-box1">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn1">Read More</Link>
                                         </div>
@@ -87,7 +87,7 @@ export default class RecentEventsThree extends React.Component {
                                 {/* Recent Event Single */}
                                 <div className="recent-event__single1">
                                     <div className="recent-event__img1">
-                                        <img src={publicUrl + "assets/images/resources/event2.jpg"} alt="" />
+                                        <img src={publicUrl + "assets/images/resources/event2.JPG"} alt="" />
                                         <div className="recent-event__btn-box1">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn1">Read More</Link>
                                         </div>
@@ -108,7 +108,7 @@ export default class RecentEventsThree extends React.Component {
                                 {/* Recent Event Single */}
                                 <div className="recent-event__single1">
                                     <div className="recent-event__img1">
-                                        <img src={publicUrl + "assets/images/resources/event2.jpg"} alt="" />
+                                        <img src={publicUrl + "assets/images/resources/event2.JPG"} alt="" />
                                         <div className="recent-event__btn-box1">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn1">Read More</Link>
                                         </div>
@@ -129,7 +129,7 @@ export default class RecentEventsThree extends React.Component {
                                 {/* Recent Event Single */}
                                 <div className="recent-event__single1">
                                     <div className="recent-event__img1">
-                                        <img src={publicUrl + "assets/images/resources/event2.jpg"} alt="" />
+                                        <img src={publicUrl + "assets/images/resources/event2.JPG"} alt="" />
                                         <div className="recent-event__btn-box1">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn1">Read More</Link>
                                         </div>
@@ -173,7 +173,7 @@ export default class RecentEventsThree extends React.Component {
                                 
                                 <div className="recent-event__single1">
                                     <div className="recent-event__img1">
-                                        <img src={publicUrl + "assets/images/resources/event1.jpg"} alt="" />
+                                        <img src={publicUrl + "assets/images/resources/event1.JPG"} alt="" />
                                         <div className="recent-event__btn-box1">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn1">Read More</Link>
                                         </div>
@@ -202,7 +202,7 @@ export default class RecentEventsThree extends React.Component {
                                 {/* Recent Event Single */}
                                 <div className="recent-event__single1">
                                     <div className="recent-event__img1">
-                                        <img src={publicUrl + "assets/images/resources/event2.jpg"} alt="" />
+                                        <img src={publicUrl + "assets/images/resources/event2.JPG"} alt="" />
                                         <div className="recent-event__btn-box1">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn1">Read More</Link>
                                         </div>
