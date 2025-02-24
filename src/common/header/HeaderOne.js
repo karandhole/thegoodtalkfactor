@@ -15,37 +15,32 @@ export default class HeaderOne extends React.Component {
                             <div className="main-header__top-inner clearfix">
                                 <div className="main-header__top-left">
                                     <ul className="list-unstyled main-header__top-address">
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-call"></span>
-                                            </div>
-                                            <div className="text">
-                                                <p><a href="tel:5204654544">+5204654544</a></p>
-                                            </div>
-                                        </li>
+                                        
                                         <li>
                                             <div className="icon">
                                                 <span className="icon-envelope"></span>
                                             </div>
                                             <div className="text">
-                                                <p><a href="mailto:demo@example.com">demo@example.com</a></p>
+                                                <p><a href="mailto:demo@example.com">thegoodtalkfactory@gmail.com</a></p>
                                             </div>
                                         </li>
+
                                         <li>
                                             <div className="icon">
-                                                <span className="icon-place"></span>
+                                                {/* <span className="icon-place"></span> */}
                                             </div>
                                             <div className="text">
-                                                <p>Gandhi Heights, Vivekananda Nagar, Kukatpally, Telangana</p>
+                                                {/* <p>Gandhi Heights, Vivekananda Nagar, Kukatpally, Telangana</p> */}
                                             </div>
                                         </li>
+                                        
                                     </ul>
                                 </div>
                                 <div className="main-header__top-right">
                                     <ul className="list-unstyled main-header__top-right-content">
                                         {/* <li><Link to={process.env.PUBLIC_URL + `/`}>Login</Link></li> */}
-                                        <li><Link to={process.env.PUBLIC_URL + `/`}>Help You</Link></li>
-                                        <SearchButton />
+                                        <li><Link to={process.env.PUBLIC_URL + `/`}><span className="icon-place"></span> <p style={{paddingLeft:"4px"}}> <span ></span>Kukatpally,Hyderabad,Telangana</p></Link></li>
+                                        {/* <SearchButton /> */}
                                     </ul>
                                 </div>
                             </div>

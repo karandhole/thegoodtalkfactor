@@ -30,7 +30,7 @@ export default class HeroThree extends React.Component {
 
                             {/* Start Swiper Slide Single */}
                             <SwiperSlide className="swiper-slide">
-                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/hero.jpg)'}}></div>
+                                <div className="image-layer" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/bg.jpg)'}}></div>
                                 <div className="main-slider__three-map">
                                     <img src={publicUrl+"assets/images/shapes/main-slider-three-map.png"} alt="" />
                                 </div>
@@ -38,10 +38,9 @@ export default class HeroThree extends React.Component {
                                     <div className="row">
                                         <div className="col-xl-12">
                                             <div className="main-slider__content">
-                                                <h2>Donations even if it   <span> is a </span> small can <br /> bring bigger.</h2>
-                                                <p>There are many variations of passages of Lorem Ipsum Fasts <br /> by injected
-                                                    humour, or randomised words which... </p>
-                                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn main-slider__btn">Leran More</Link>
+                                                <h2>"Live Your Story By Building Conversations And Transforming Lives"</h2>
+                                               
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -59,10 +58,8 @@ export default class HeroThree extends React.Component {
                                     <div className="row">
                                         <div className="col-xl-12">
                                             <div className="main-slider__content">
-                                                <h2>Give the <span>Poor</span> Help <br /> for Families.</h2>
-                                                <p>There are many variations of passages of Lorem Ipsum Fasts <br /> by injected
-                                                    humour, or randomised words which... </p>
-                                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn main-slider__btn">Leran More</Link>
+                                                <h2> "Everyone Has a Story And Every Story Is Worth Experiencing"</h2>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -81,9 +78,7 @@ export default class HeroThree extends React.Component {
                                         <div className="col-xl-12">
                                             <div className="main-slider__content">
                                             <h2>Donations even if it   <span> is a</span>small can <br /> fbring bigger.</h2>
-                                                <p>There are many variations of passages of Lorem Ipsum Fasts <br /> by injected
-                                                    humour, or randomised words which... </p>
-                                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn main-slider__btn">Leran More</Link>
+                                                
                                             </div>
                                         </div>
                                     </div>
