@@ -9,8 +9,8 @@ export default class TeamOne extends React.Component {
                 <section className="team-one">
                     <div className="container">
                         <div className="section-title text-center">
-                            <span className="section-title__tagline">Expert Team</span>
-                            <h2 className="section-title__title">Meet Our Team.</h2>
+                            <span className="section-title__tagline">Trustee</span>
+                            <h2 className="section-title__title">Meet Our Trustee.</h2>
                         </div>
                         <div className="row">
                             <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="100ms">

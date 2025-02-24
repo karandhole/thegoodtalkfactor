@@ -26,7 +26,7 @@ const menuData = [
     },
 
     {
-        title: 'Pages',
+        title: 'Team',
         path: '#',
 
         iconClosed: <CgChevronLeft />,
@@ -34,32 +34,32 @@ const menuData = [
 
         subNav: [
             {
-                title: 'Team',
-                path: '/team',
+                title: 'Trustees',
+                path: '/Trustee',
                 cName: 'sub-nav',
             },
             { 
-                title: 'Team Details',
-                path: '/team-details',
+                title: 'Core Team',
+                path: 'coreteam',
                 cName: 'sub-nav',
             },
             
             {
-                title: 'Project',
-                path: '/project-details',
+                title: 'Advisor',
+                path: '/advisor',
             },
             {
-                title: 'Testimonial',
-                path: '/testimonials',
+                title: 'Volunteer & Interns',
+                path: '/team',
             },
-            {
-                title: 'Gallery',
-                path: '/gallery',
-            },
-            {
-                title: '404 Error',
-                path: '/error',
-            },
+            // {
+            //     title: 'Gallery',
+            //     path: '/gallery',
+            // },
+            // {
+            //     title: '404 Error',
+            //     path: '/error',
+            // },
         ],
     },
 

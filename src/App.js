@@ -32,6 +32,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import 'swiper/css/effect-fade';
+import Trustee from './pages/Trustees';
+import CoreTeam from './pages/CoreTeam';
+import Advisor from './pages/Advisor';
 
 function App() {
   useEffect(() => {
@@ -49,6 +52,10 @@ function App() {
             <Route path={`${process.env.PUBLIC_URL}/home-three`} exact element={<HomeThree />} />
             <Route path={`${process.env.PUBLIC_URL}/about`} exact element={<About />} />
             <Route path={`${process.env.PUBLIC_URL}/team`} exact element={<Team />} />
+            <Route path={`${process.env.PUBLIC_URL}/trustee`} exact element={<Trustee />} />
+            <Route path={`${process.env.PUBLIC_URL}/coreteam`} exact element={<CoreTeam />} />
+            <Route path={`${process.env.PUBLIC_URL}/advisor`} exact element={<Advisor />} />
+
             <Route path={`${process.env.PUBLIC_URL}/volunteer`} exact element={<TeamDetails />} />
             <Route path={`${process.env.PUBLIC_URL}/projects`} exact element={<Projects />} />
             <Route path={`${process.env.PUBLIC_URL}/project-details`} exact element={<ProjectDetails />} />

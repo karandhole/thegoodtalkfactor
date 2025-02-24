@@ -15,16 +15,19 @@ const Nav = () => {
                         <Link to="/about">About</Link>
                     </li>
                     <li className={`dropdown ${location.pathname.startsWith('/team') ? 'active' : ''}`}>
-                        <Link to="#">Pages</Link>
+                        <Link to="#">Team</Link>
                         <ul>
                             <li className={location.pathname === '/team' ? 'active' : ''}>
-                                <Link to="/team">Team</Link>
+                                <Link to="/trustee">Trustees</Link>
                             </li>
                             <li className={location.pathname === '/team-details' ? 'active' : ''}>
-                                <Link to="/team-details">Team Details</Link>
+                                <Link to="/coreteam">Core Team</Link>
                             </li>
                             <li className={location.pathname === '/projects' ? 'active' : ''}>
-                                <Link to="/project-details">Projects</Link>
+                                <Link to="/advisor">Advisors</Link>  
+                            </li>
+                            <li className={location.pathname === '/team' ? 'active' : ''}>
+                                <Link to="/team">Volunteer & Interns</Link>
                             </li>
                             {/* <li className={location.pathname === '/project-details' ? 'active' : ''}>
                                 <Link to="/project-details">Project Details</Link>

@@ -30,7 +30,7 @@ const HomeThree = () => {
             <CausesTwo />
             {/* <BrandOne /> */}
           
-            <TeamOne />
+            {/* <TeamOne /> */}
             
             <RecentEventsTwo />
            
