@@ -366,7 +366,7 @@ ul {
     position: absolute;
     top: 0px;
     bottom: 0px;
-    left: -10000000px;
+    left: 0px;
     right: 100%;
     content: "";
     background-color: var(--sopot-base);
@@ -8638,6 +8638,7 @@ a.sc-hLBbgP {
     border-top: 1px solid rgba(var(--sopot-base-rgb), .10);
     padding-top: 35px;
     margin-top: 44px;
+    padding-bottom: 20px;
 }
 
 .join-team__contact p {

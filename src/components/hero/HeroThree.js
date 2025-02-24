@@ -58,7 +58,7 @@ export default class HeroThree extends React.Component {
                                     <div className="row">
                                         <div className="col-xl-12">
                                             <div className="main-slider__content">
-                                                <h2> "Everyone Has a Story And Every Story Is Worth Experiencing"<br/><br/></h2>
+                                                <h2> "Everyone Has a Story And Every Story Is Worth Experiencing"<br/><br/>  </h2>
                                                 
                                             </div>
                                         </div>
