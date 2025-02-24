@@ -16,6 +16,7 @@ import CtaOne from "../components/cta/CtaOne";
 import FooterOne from "../common/footer/FooterOne";
 import RecentEventsOne from "../components/events/RecentEventsOne";
 import FooterTwo from "../common/footer/FooterTwo";
+import GalleryOne from "../components/gallery/GalleryOne";
 
 const HomeThree = () => {
     return (
@@ -37,6 +38,7 @@ const HomeThree = () => {
             {/* <TestimonialTwo /> */}
             <BlogSectionThree />
             <ProjectOne />
+        
             <CtaOne />
             <FooterTwo />
         </>
