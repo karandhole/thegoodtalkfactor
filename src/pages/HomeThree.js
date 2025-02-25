@@ -36,7 +36,7 @@ const HomeThree = () => {
             <RecentEventsTwo />
            
             {/* <TestimonialTwo /> */}
-            <BlogSectionThree />
+            {/* <BlogSectionThree /> */}
             <ProjectOne />
         
             {/* <CtaOne /> */}

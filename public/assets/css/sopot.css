@@ -6819,7 +6819,7 @@ a.sc-hLBbgP {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 95px;
+    height: 85px;
     width: 120px;
     text-align: center;
     border: 1px solid rgba(var(--sopot-base-rgb), .20);
@@ -6827,10 +6827,10 @@ a.sc-hLBbgP {
 }
 
 .up-comming-event-two__date-box p {
-    font-size: 35px;
+    font-size: 30px;
     color: var(--sopot-base);
     font-weight: 600;
-    line-height: 35px;
+    line-height: 25px;
     font-family: var(--sopot-font-two);
 }
 
