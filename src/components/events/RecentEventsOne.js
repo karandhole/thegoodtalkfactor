@@ -17,7 +17,7 @@ export default class RecentEventsOne extends React.Component {
                                 {/* Recent Event Single */}
                                 <div className="recent-event__single">
                                     <div className="recent-event__img">
-                                        <img src={publicUrl + "assets/images/resources/ab1.jpeg"} alt="" />
+                                        <img src={publicUrl + "assets/images/services/impact2.JPG"} alt="" />
                                         {/* <div className="recent-event__btn-box">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn">Read More</Link>
                                         </div> */}
@@ -43,7 +43,7 @@ export default class RecentEventsOne extends React.Component {
                                 {/* Recent Event Single */}
                                 <div className="recent-event__single">
                                     <div className="recent-event__img">
-                                        <img src={publicUrl + "assets/images/resources/ab3.jpg"} alt="" />
+                                        <img src={publicUrl + "assets/images/services/impact3.JPG"} alt="" />
                                         {/* <div className="recent-event__btn-box">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn">Read More</Link>
                                         </div> */}
@@ -72,7 +72,7 @@ export default class RecentEventsOne extends React.Component {
                                 {/* Recent Event Single */}
                                 <div className="recent-event__single">
                                     <div className="recent-event__img">
-                                        <img src={publicUrl + "assets/images/resources/ab3.jpg"} alt="" />
+                                        <img src={publicUrl + "assets/images/services/impact1.jpg"} alt="" />
                                         {/* <div className="recent-event__btn-box">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn">Read More</Link>
                                         </div> */}
@@ -99,7 +99,7 @@ export default class RecentEventsOne extends React.Component {
                                 {/* Recent Event Single */}
                                 <div className="recent-event__single">
                                     <div className="recent-event__img">
-                                        <img src={publicUrl + "assets/images/resources/ab3.jpg"} alt="" />
+                                        <img src={publicUrl + "assets/images/services/impact4.JPG"} alt="" />
                                         {/* <div className="recent-event__btn-box">
                                             <Link to={process.env.PUBLIC_URL + `/events`} className="thm-btn recent-event__btn">Read More</Link>
                                         </div> */}

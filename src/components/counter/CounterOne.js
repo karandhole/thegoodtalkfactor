@@ -34,7 +34,7 @@ export default class CounterOne extends React.Component {
                                     <div className="counter-one__content">
                                         <h3 className="odometer" data-count="5">00</h3>
                                         <span className="counter-one__letter">+</span>
-                                        <p className="counter-one__text">cities impacted</p>
+                                        <p className="counter-one__text">cities impacted <br/> <br/> </p>
                                     </div>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ export default class CounterOne extends React.Component {
                                     <div className="counter-one__content">
                                         <h3 className="odometer" data-count="1,00,000">00</h3>
                                         <span className="counter-one__letter">+</span>
-                                        <p className="counter-one__text">fund Allocated for Child Education</p>
+                                        <p className="counter-one__text">fund Allocated for Child Education <br/> <br/></p>
                                     </div>
                                 </div>
                             </div>
@@ -69,16 +69,11 @@ export default class CounterOne extends React.Component {
                                     </div>
                                 </div>
                             </div>
+                            
 
                             
                         </div>
-                        <div className="row">
-                            <div className="col-xl-12">
-                                <div className="counter-one__btn-box text-center">
-                                    <a href="about.html" className="thm-btn counter-one__btn">Read More</a>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </section>
             </>
