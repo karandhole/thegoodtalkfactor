@@ -10,7 +10,7 @@ export default class RecentEventsOne extends React.Component {
                     <div className="container">
                         <div className="section-title text-center">
                             <span className="section-title__tagline">OUR IMPACT AREAS</span>
-                            <h2 className="section-title__title">TGTF operates across multiple social impact verticals, <br /> including.</h2>
+                            <h2 className="section-title__title">Our Social Impact Verticals</h2>
                         </div>
                         <div className="row">
                             <div className="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
@@ -113,7 +113,7 @@ export default class RecentEventsOne extends React.Component {
                                                 <p> <span className="icon-back-in-time"></span> 04:00 am </p>
                                             </li>
                                         </ul> */}
-                                        <h6 className="recent-event__title"><Link to={process.env.PUBLIC_URL + `/events`}>INCLUSIVITY & ACCESSIBILITY AWARENESS</Link></h6>
+                                        <h6 className="recent-event__title"><Link to={process.env.PUBLIC_URL + `/events`}>INCLUSION & ACCESSIBILITY AWARENESS</Link></h6>
                                         <ul className="recent-event__text">
                                             <li> Assistive technology & accessibility consulting</li>
                                             <li> Workplace inclusivity training</li>

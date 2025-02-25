@@ -6755,8 +6755,8 @@ a.sc-hLBbgP {
     border: 1px solid rgba(var(--sopot-base-rgb), .20);
     align-items: center;
     justify-content: space-between;
-    padding: 30px 30px;
-    margin-bottom: 30px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 }
 
 .up-comming-event-two__location-box {
@@ -6768,10 +6768,10 @@ a.sc-hLBbgP {
 
 .up-comming-event-two__location-title {
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-bottom: 22px;
+    margin-bottom: 15px;
 }
 
 .up-comming-event-two__location-title:before {

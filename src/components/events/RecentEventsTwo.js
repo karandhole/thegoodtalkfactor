@@ -7,23 +7,23 @@ export default class RecentEventsTwo extends React.Component {
 
         if ($('.up-comming-event-two').length) {
             $('.up-comming-event-two .tabs-button-box .tab-btn-item').on('click', function (e) {
-              e.preventDefault();
-              var target = $($(this).attr('data-tab'));
-        
-              if ($(target).hasClass('actve-tab')) {
-                return false;
-              } else {
-                $('.up-comming-event-two .tabs-button-box .tab-btn-item').removeClass('active-btn-item');
-                $(this).addClass('active-btn-item');
-                $('.up-comming-event-two .tabs-content-box .tab-content-box-item').removeClass('tab-content-box-item-active');
-                $(target).addClass('tab-content-box-item-active');
-              }
+                e.preventDefault();
+                var target = $($(this).attr('data-tab'));
+
+                if ($(target).hasClass('actve-tab')) {
+                    return false;
+                } else {
+                    $('.up-comming-event-two .tabs-button-box .tab-btn-item').removeClass('active-btn-item');
+                    $(this).addClass('active-btn-item');
+                    $('.up-comming-event-two .tabs-content-box .tab-content-box-item').removeClass('tab-content-box-item-active');
+                    $(target).addClass('tab-content-box-item-active');
+                }
             });
         }
 
     }
-    render(){
-        let publicUrl = process.env.PUBLIC_URL+'/'
+    render() {
+        let publicUrl = process.env.PUBLIC_URL + '/'
         return (
             <>
                 <section className="up-comming-event-two">
@@ -39,17 +39,17 @@ export default class RecentEventsTwo extends React.Component {
                                     <div className="up-comming-event-two__top">
                                         <ul className="tabs-button-box list-unstyled up-comming-event-two__list">
                                             <li data-tab="#month-1" className="tab-btn-item active-btn-item">
-                                                <p>Dec <span>2019</span></p>
+                                                <p>2024 </p>
                                             </li>
                                             <li data-tab="#month-2" className="tab-btn-item">
-                                                <p>Jan <span>2020</span></p>
+                                                <p>2025</p>
                                             </li>
-                                            <li data-tab="#month-3" className="tab-btn-item">
+                                            {/* <li data-tab="#month-3" className="tab-btn-item">
                                                 <p>Feb <span>2021</span></p>
                                             </li>
                                             <li data-tab="#month-4" className="tab-btn-item">
                                                 <p>March <span>2022</span></p>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
 
@@ -59,14 +59,15 @@ export default class RecentEventsTwo extends React.Component {
                                             <div className="up-comming-event-two__bottom">
                                                 <div className="up-comming-event-two__single">
                                                     <div className="up-comming-event-two__location-box">
-                                                        <h5 className="up-comming-event-two__location-title">Lorem ipsum dollar sit amet</h5>
+                                                        <h5 className="up-comming-event-two__location-title">Taare Zameen Par (Art meets music) </h5>
                                                         <ul className="list-unstyled up-comming-event-two__location-list">
                                                             <li>
                                                                 <div className="icon">
                                                                     <span className="icon-place"></span>
                                                                 </div>
                                                                 <div className="text">
-                                                                    <p>In Sanfransico, CA</p>
+                                                                    <p>Guruswamy centre
+                                                                    </p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -80,20 +81,22 @@ export default class RecentEventsTwo extends React.Component {
                                                         </ul>
                                                     </div>
                                                     <div className="up-comming-event-two__date-box">
-                                                        <p>18</p>
-                                                        <span>June</span>
+                                                        <p>27th </p>
+                                                        <span>April</span>
                                                     </div>
                                                 </div>
                                                 <div className="up-comming-event-two__single">
                                                     <div className="up-comming-event-two__location-box">
-                                                        <h5 className="up-comming-event-two__location-title">Lorem ipsum dollar sit amet</h5>
+                                                        <h5 className="up-comming-event-two__location-title"> TGTF VIDYA ( Vidya sessions(pilot project) - Launch event )
+
+                                                        </h5>
                                                         <ul className="list-unstyled up-comming-event-two__location-list">
                                                             <li>
                                                                 <div className="icon">
                                                                     <span className="icon-place"></span>
                                                                 </div>
                                                                 <div className="text">
-                                                                    <p>In Sanfransico, CA</p>
+                                                                    <p>Khusbow Vidya Niketan School</p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -107,20 +110,22 @@ export default class RecentEventsTwo extends React.Component {
                                                         </ul>
                                                     </div>
                                                     <div className="up-comming-event-two__date-box">
-                                                        <p>18</p>
-                                                        <span>June</span>
+                                                        <p>6th</p>
+                                                        <span> July</span>
                                                     </div>
                                                 </div>
                                                 <div className="up-comming-event-two__single">
                                                     <div className="up-comming-event-two__location-box">
-                                                        <h5 className="up-comming-event-two__location-title">Lorem ipsum dollar sit amet</h5>
+                                                        <h5 className="up-comming-event-two__location-title"> Resilient echoes (An artistry workshop on cultivating mental well-being and support)
+
+                                                        </h5>
                                                         <ul className="list-unstyled up-comming-event-two__location-list">
                                                             <li>
                                                                 <div className="icon">
                                                                     <span className="icon-place"></span>
                                                                 </div>
                                                                 <div className="text">
-                                                                    <p>In Sanfransico, CA</p>
+                                                                    <p>Salesforce office</p>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -134,10 +139,84 @@ export default class RecentEventsTwo extends React.Component {
                                                         </ul>
                                                     </div>
                                                     <div className="up-comming-event-two__date-box">
-                                                        <p>18</p>
-                                                        <span>June</span>
+                                                        <p>11th</p>
+                                                        <span> September </span>
                                                     </div>
                                                 </div>
+
+
+
+
+                                                <div className="up-comming-event-two__single">
+                                                    <div className="up-comming-event-two__location-box">
+                                                        <h5 className="up-comming-event-two__location-title"> Nostalgia ( The chronicles of elderly tales )
+                                                            
+
+
+                                                        </h5>
+                                                        <ul className="list-unstyled up-comming-event-two__location-list">
+                                                            <li>
+                                                                <div className="icon">
+                                                                    <span className="icon-place"></span>
+                                                                </div>
+                                                                <div className="text">
+                                                                    <p>PP Reddy retirement homes</p>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div className="icon">
+                                                                    <span className="icon-back-in-time"></span>
+                                                                </div>
+                                                                <div className="text">
+                                                                    <p>08..00-16.00</p>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div className="up-comming-event-two__date-box">
+                                                        <p>22nd </p>
+                                                        <span>September  </span>
+                                                    </div>
+                                                </div>
+
+
+
+
+
+                                                <div className="up-comming-event-two__single">
+                                                    <div className="up-comming-event-two__location-box">
+                                                        <h5 className="up-comming-event-two__location-title"> Kahaaniyan 4.0 ( 6th Anniversary celebrations ) 
+                                                      
+                                                            
+
+
+                                                        </h5>
+                                                        <ul className="list-unstyled up-comming-event-two__location-list">
+                                                            <li>
+                                                                <div className="icon">
+                                                                    <span className="icon-place"></span>
+                                                                </div>
+                                                                <div className="text">
+                                                                    <p>Guruswamy centre</p>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div className="icon">
+                                                                    <span className="icon-back-in-time"></span>
+                                                                </div>
+                                                                <div className="text">
+                                                                    <p>08..00-16.00</p>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div className="up-comming-event-two__date-box">
+                                                        <p>14th</p>
+                                                        <span> December </span>
+                                                    </div>
+                                                </div>
+
+
                                             </div>
                                         </div>
 
@@ -229,7 +308,7 @@ export default class RecentEventsTwo extends React.Component {
                                         </div>
 
                                         {/* Tab */}
-                                        <div className="tab-content-box-item" id="month-3">
+                                        {/* <div className="tab-content-box-item" id="month-3">
                                             <div className="up-comming-event-two__bottom">
                                                 <div className="up-comming-event-two__single">
                                                     <div className="up-comming-event-two__location-box">
@@ -315,7 +394,7 @@ export default class RecentEventsTwo extends React.Component {
                                             </div>
                                         </div>
 
-                                        {/* Tab */}
+                                    
                                         <div className="tab-content-box-item" id="month-4">
                                             <div className="up-comming-event-two__bottom">
                                                 <div className="up-comming-event-two__single">
@@ -400,14 +479,14 @@ export default class RecentEventsTwo extends React.Component {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>*/}
                                     </div>
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-5">
                                 <div className="up-comming-event-two__right">
                                     <div className="up-comming-event-two__img">
-                                        <img src={publicUrl+"assets/images/resources/up-comming-event-two-img.jpg"} alt="" />
+                                        <img src={publicUrl + "assets/images/resources/up-comming-event-two-img.jpg"} alt="" />
                                     </div>
                                 </div>
                             </div>
