@@ -14,7 +14,8 @@ export default class HelpPeopleTwo extends React.Component {
                                 <div className="help-one__content-box">
                                     <div className="help-one__single">
                                         <div className="help-one__icon">
-                                            <span className="icon-donation-1"></span>
+                                            {/* <span className="icon-donation-1"></span> */}
+                                            <img src={publicUrl + "assets/images/icon/icon1.png"} style={{height:"60px", width:"60px" ,backgroundColor:"white"}} alt="" />
                                         </div>
                                         <div className="help-one__content">
                                             <h4>Passion </h4>
@@ -23,12 +24,14 @@ export default class HelpPeopleTwo extends React.Component {
                                     </div>
                                     <div className="help-one__single">
                                         <div className="help-one__icon">
-                                            <span className="icon-heart"></span>
+                                            {/* <span className="icon-heart"></span> */}
+                                            <img src={publicUrl + "assets/images/icon/icon2.png"} style={{height:"60px", width:"60px" ,backgroundColor:"white"}} alt="" />
+                                            
                                         </div>
                                         <div className="help-one__content">
                                             <h4> Dedication </h4>
                                             <p>We provide consistent efforts in fostering inclusivity.</p>
-                                        </div>
+                                         </div>
                                     </div>
                                 </div>
                             </div>
@@ -36,7 +39,8 @@ export default class HelpPeopleTwo extends React.Component {
                                 <div className="help-one__content-box">
                                     <div className="help-one__single">
                                         <div className="help-one__icon">
-                                            <span className="icon-donation"></span>
+                                            {/* <span className="icon-donation"></span> */}
+                                            <img src={publicUrl + "assets/images/icon/icon3.png"} style={{height:"60px", width:"60px" ,backgroundColor:"white"}} alt="" />
                                         </div>
                                         <div className="help-one__content">
                                             <h4> Inspiration </h4>
@@ -45,7 +49,8 @@ export default class HelpPeopleTwo extends React.Component {
                                     </div>
                                     <div className="help-one__single">
                                         <div className="help-one__icon">
-                                            <span className="icon-bankruptcy"></span>
+                                            {/* <span className="icon-bankruptcy"></span> */}
+                                            <img src={publicUrl + "assets/images/icon/icon4.png"} style={{height:"60px", width:"60px" ,backgroundColor:"white"}} alt="" />
                                         </div>
                                         <div className="help-one__content">
                                             <h4>Transformation</h4>

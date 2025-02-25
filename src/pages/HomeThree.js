@@ -39,7 +39,7 @@ const HomeThree = () => {
             <BlogSectionThree />
             <ProjectOne />
         
-            <CtaOne />
+            {/* <CtaOne /> */}
             <FooterTwo />
         </>
     )

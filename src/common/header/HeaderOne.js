@@ -39,7 +39,7 @@ export default class HeaderOne extends React.Component {
                                 <div className="main-header__top-right">
                                     <ul className="list-unstyled main-header__top-right-content">
                                         {/* <li><Link to={process.env.PUBLIC_URL + `/`}>Login</Link></li> */}
-                                        <li><Link to={process.env.PUBLIC_URL + `/`}><span className="icon-place"></span> <p style={{paddingLeft:"4px"}}> <span ></span>Kukatpally,Hyderabad,Telangana</p></Link></li>
+                                        <li><Link to={process.env.PUBLIC_URL + `/`}><span className="icon-place"></span> <p style={{paddingLeft:"4px"}}> <span ></span>Kukatpally, Hyderabad, Telangana</p></Link></li>
                                         {/* <SearchButton /> */}
                                     </ul>
                                 </div>

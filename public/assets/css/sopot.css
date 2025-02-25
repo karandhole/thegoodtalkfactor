@@ -6921,6 +6921,7 @@ a.sc-hLBbgP {
     left: 0;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
+    background-color:rgb(255, 255, 255) ;
     z-index: 1;
 }
 
@@ -6936,7 +6937,7 @@ a.sc-hLBbgP {
     bottom: 0;
     content: "";
     border-radius: 50%;
-    background-color: var(--sopot-white);
+    background-color: rgb(248, 248, 248);
     transform: scale(0);
     transform-origin: center;
     transform-style: preserve-3d;
